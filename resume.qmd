@@ -1,0 +1,242 @@
+---
+format: 
+  pdf: 
+    documentclass: article
+    geometry:
+      - top=10mm
+      - left=15mm
+      - right=15mm
+      - bottom=5mm
+      - heightrounded
+    fontfamily: libertinus
+    colorlinks: true
+    fontsize: '16'
+    include-in-header: 
+      text: |
+        \usepackage{multicol}
+        \usepackage{lipsum}
+        \usepackage{hyperref}
+        \pagestyle{empty}
+        \setlength{\multicolsep}{2pt plus 1.0pt minus 0.75pt}% 50% of original values
+        \setlength{\columnsep}{3em}
+---
+<!-- TITLE -->
+\begin{huge}\begin{center}{\bf Brian N Smith}\end{center}\end{huge}
+
+<!-- CONTACT INFO -->
+\begin{center}smithbn@gmail.com ∙ 
+\href{https://www.example.com}{Portfolio} ∙ 
+\href{https://github.com/smithbn}{Github} ∙ \href{https://www.linkedin.com/in/brianneilsmith/}{LinkedIn}
+\end{center}
+\vspace{15pt}
+
+<!-- SKILLS -->
+\begin{large}{\bf SKILLS}
+  \vspace{3pt}
+  \hrule
+\end{large}
+\vspace{-0.16cm}
+**Languages and Tools** - SQL, R, Python, Git, Quarto, Atlassian Platform (JIRA, Confluence), Metabase, Pendo, Aha!, Salesforce, Google Cloud Platform (BigQuery, Looker)     
+**Selected Knowledge** - DSP, SSP, Bayesian Experiments, Forecasting, Digital Ad Products, Data Visualization
+
+<!-- EXPERIENCE : 1ST BULLET-->
+\begin{large}{\bf EXPERIENCE}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://www.basis.net/}{Basis Technologies}}\end{flushleft}
+    \begin{flushright}Jun 2021-Present\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Senior Product manager}\end{flushleft}
+    \begin{flushright}Austin, TX (Remote)\end{flushright}\end
+  {multicols}
+\end{large}
+\vspace{-0.16cm}
+* Lead PM working to address our agency customers’ campaign storytelling and dashboarding needs reporting to the VP of Product.
+* *Key results:*
+  * Defined a strategy and roadmap to create a new revenue stream for Basis platform via the creation of an in-app dashboarding tool.
+  * Planned and managed late-stage validation of our dashboarding tool.
+  * Delivered a feature-complete dashboarding product and partnered with product marketing to create a go-to-market strategy that’s ready for a summer of 2022 launch.
+
+
+\vspace{7pt}
+
+<!-- EXPERIENCE : 2ND BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://koddi.com/}{Koddi}}\end{flushleft}
+    \begin{flushright}Jun 2020-Jun 2021\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Senior Product Manager}\end
+    {flushleft}\begin{flushright}Austin, TX\end
+    {flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+* PM working on demand-side of Koddi products and tools by enabling SMB customers to run sponsored listings, metasearch, display, search and social advertising campaigns at scale.
+* *Key results:*
+  * Defined, launched and grew adoption of an ML-driven media-mix planning tool for hotels resulting in the automation of 2,000+ customers’ campaigns.
+  * Scoped and launched campaign optimization automation through iterative, test and learn processes, increasing budget utilization by 89% and hotel revenue by 70%.
+  * Defined and launched display integration growing display automation capabilities for thousands of hotels.
+  * Managed the migration of over 7,000 hotels’ OTA campaigns to new accounts, growing profits for OTA vertical.
+  * Gathered stakeholder feedback processes across client services.
+
+\vspace{7pt}
+
+<!-- EXPERIENCE : 3RD BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://sojern.com/}{Sojern}}\end{flushleft}
+    \begin{flushright}Jan 2019-Apr 2020\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Senior Product Manager}\end{flushleft}
+    \begin{flushright}San Francisco, CA\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+* Lead PM for Sojern customer account product and reporting and insights reporting to the VP of Product.
+* *Key results:*
+  * Directed vision and setup roadmap for SMB customer account product and insights products.
+  * Scaled the SMB vertical to be able to support over 8,000 customer accounts and make up 1⁄3 of total company revenue.
+  * Helped to launch and grow subscription account product by 400%.
+  * Increased insights use case coverage by 300%.
+  * Hired, managed and mentored a team of two product managers focused on (1) billing and payments and (2) customer lifecycle.
+  * Managed stakeholders including accounting, account management, and sales.
+  * Defined processes for requirement documents and bug escalation.
+  * Drove adoption of JIRA and Confluence across the Solutions team.
+
+\vspace{7pt}
+
+<!-- EXPERIENCE : 4TH BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{http://sojern.com/}{Sojern}}\end{flushleft}
+    \begin{flushright}Jan 2017-Dec 2018\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Product Manager}\end{flushleft}
+    \begin{flushright}San Francisco, CA\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+* PM focused on Sojern’s customer-facing SMB account product reporting to the VP of Product.
+* *Key results:*
+  * Grew MAUs from 1,400 to more than 4,500 in 18 months.
+  * Wrote product requirement docs, designed wireframes and collaborated through Agile framework with designers, engineers and analysts across San Francisco and India.
+  * Managed migration of invoicing and payments capabilities to a completely new billing and payments system for 6,000 customer accounts.
+  * Oversaw all data pipelines supporting SMB customer performance reporting and insights, including millions of dollars of commission bookings.
+  * Shifted team from Kanban agile processes toward Scrum.
+  * Planned and led two week-long cross-functional design sprints to speed up product development. Created materials and trained colleagues on the process.
+  * Hired, managed and mentored one other product manager.
+
+\vspace{7pt}
+
+<!-- EXPERIENCE : 5TH BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{http://sojern.com/}{Sojern}}\end{flushleft}
+    \begin{flushright}Sep 2015-Dec 2016\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Manager of Accounts, Tourism}\end{flushleft}
+    \begin{flushright}San Francisco, CA\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+* Led the ten-person account management team for the tourism vertical at Sojern.
+* *Key results:*
+  * Exceeded team vertical goals for YOY revenue growth of 26%.
+  * Built automated customer profile report insights used across all customer verticals that are still used as of 2020.
+
+\vspace{7pt}
+
+<!-- EXPERIENCE : 6TH BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{http://sojern.com/}{Sojern}}\end{flushleft}
+    \begin{flushright}Apr 2014-Aug 2015\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Senior Account Manager}\end{flushleft}
+    \begin{flushright}Omaha, NE\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+* Launched and grew an account management team in San Francisco to three people while managing a book of business. Reported to the Director of Ad Operations.
+* *Key results:*
+  * Radically transformed the speed and ease of the post-campaign analytics process for the tourism vertical by designing and building an automated analytics pipeline using Hive, Oozie, and R.
+  * Researched and operationalized a new lift study approach using the Bayesian Causal Impact methodology and championed its use across the business.
+  * Member of a cross-functional group to address company-wide data quality issues.
+
+\vspace{7pt}
+
+<!-- EXPERIENCE : 7TH BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{http://sojern.com/}{Sojern}}\end{flushleft}
+    \begin{flushright}Jun 2012-Mar 2014\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Account Manager}\end{flushleft}
+    \begin{flushright}Omaha, NE\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+* Served as first tourism-focused account manager in the company. Reported to the Director of Ad Operations.
+
+\vspace{7pt}
+
+<!-- EXPERIENCE : 8TH BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf Additional Experience | See  \href{https://www.linkedin.com/in/brianneilsmith/details/experience/}{LinkedIn Profile}}\end{flushleft}
+    \begin{flushright}2006-2012\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+\vspace{-0.16cm}
+
+\vspace{7pt}
+
+<!-- EDUCATION: 1ST BULLET -->
+\begin{large}
+  {\bf EDUCATION}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf The University of Texas at Austin}\end{flushleft}
+    \begin{flushright}Austin, TX\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}Master of Public Affairs\end{flushleft}
+  \end{multicols}
+  \vspace{-0.25cm}
+\end{large}
+
+\vspace{0.2cm}
+
+<!-- EDUCATION: 2ND BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf St. Olaf College}\end{flushleft}
+    \begin{flushright}Northfield, MN\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}Bachelor of Arts: Political Science and English\end{flushleft}
+  \end{multicols}
+  \vspace{-0.25cm}
+\end{large}
+\vspace{3pt}
+
